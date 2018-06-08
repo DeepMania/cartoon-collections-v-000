@@ -26,6 +26,7 @@ snacks.each do |x|
   if cheese_types.include?(x)
   return x
 end
+end
 nil
 end
 
