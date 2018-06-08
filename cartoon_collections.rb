@@ -6,10 +6,10 @@ end
 
 
 def summon_captain_planet(planeteer_calls)
-planeteer_calls.collect do |name|
-name = name + "!"
-name.capitalize!
-end
+  planeteer_calls.collect do |name|
+    name = name + "!"
+    name.capitalize!
+  end
 end
 
 def long_planeteer_calls(calls)
@@ -32,10 +32,3 @@ end
 
 
 
-=begin
- if snacks.include?("cheddar")
- elsif snacks.include?("gouda")
- elsif snacks.include?("camembert")
- else nil
-  end
-=end
